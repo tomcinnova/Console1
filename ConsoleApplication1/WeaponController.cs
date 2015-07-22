@@ -16,5 +16,16 @@ namespace ConsoleApplication1
             primaryWeapon = first;
             sideArm = second;
         }
+
+        public void FirePrimary()
+        {
+            Console.Out.WriteLine("Primary Weapon Fired");
+        }
+
+        public void FireSecondary()
+        {
+            Console.Out.WriteLine("Sidearm Fired");
+        }
+
     }
 }
