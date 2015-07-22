@@ -32,5 +32,10 @@ namespace ConsoleApplication1
             Console.Out.WriteLine("Primary Weapon reloaded");
         }
 
+        public void ReloadSecondary()
+        {
+            Console.Out.WriteLine("Sidearm reloaded");
+        }
+
     }
 }
